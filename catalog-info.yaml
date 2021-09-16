@@ -1,0 +1,17 @@
+  
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: cats
+  description: The Cats is an app that exposes cat breeds through an API
+  links:
+    - url: https://github.com/northlander/cats
+      title: GitHub Repo
+      icon: github
+spec:
+  type: service
+  lifecycle: production
+  owner: cats-team
+  system: pets
+  providesApis:
+    - cat-breeds
