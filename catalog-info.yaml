@@ -11,7 +11,7 @@ metadata:
   annotations:
     backstage.io/techdocs-ref: dir:.
     backstage.io/kubernetes-id: cats
-    backstage.io/kubernetes-label-selector': 'app.kubernetes.io/instance=cats'
+    backstage.io/kubernetes-label-selector: 'app.kubernetes.io/instance=cats'
 spec:
   type: service
   lifecycle: production
