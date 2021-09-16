@@ -36,7 +36,6 @@ foo -[#blue;#green,dashed,thickness=4]-> bar6  : [blue;green,dashed,4]
 
 ```plantuml
 @startuml
-!theme hacker
 class Student {
   Name
 }
