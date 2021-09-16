@@ -10,6 +10,7 @@ metadata:
       icon: github
   annotations:
     backstage.io/techdocs-ref: dir:.
+    backstage.io/kubernetes-label-selector': 'app.kubernetes.io/instance=cats'
 spec:
   type: service
   lifecycle: production
