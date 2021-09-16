@@ -12,6 +12,7 @@ metadata:
     backstage.io/techdocs-ref: dir:.
     backstage.io/kubernetes-id: cats
     backstage.io/kubernetes-label-selector: 'app.kubernetes.io/instance=cats'
+    github.com/project-slug: northlander/cats
 spec:
   type: service
   lifecycle: production
