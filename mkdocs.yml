@@ -3,6 +3,7 @@ site_name: 'cats docs'
 nav:
   - Home: index.md
   - CatPics: catpics.md
+  - Diagrams: diagrams.md
 
 plugins:
   - techdocs-core
