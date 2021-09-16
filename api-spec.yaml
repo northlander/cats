@@ -1,0 +1,22 @@
+openapi: 3.0.0
+info:
+  title: Cats
+  description: Cats API
+  version: 1.0.0
+servers:
+  - url: http://cats.pets.fourmation.se
+    description: main server
+paths:
+  /:
+    get:
+      summary: Returns a list of cat breeds
+      description: Not all cat breeds are included
+      responses:
+        '200':
+          description: A JSON array of cat breeds
+          content:
+            application/json:
+              schema: 
+                type: array
+                items: 
+                  type: string
